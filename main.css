@@ -1,0 +1,13 @@
+body {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 0.25fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "navigation main-doc";
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    color: red;
+  }
+}
